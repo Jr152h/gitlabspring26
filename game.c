@@ -15,6 +15,8 @@
 
 //place function prototypes here
 
+void jrPhas(void);
+
 void printStudent30(void);
 
 void printInitialsAjewett(void);
@@ -222,6 +224,7 @@ int main(int argc, char *argv[])
 			}
 			case 37:
 			{
+				jrPhas();
 				puts("room37");
 				break;
 			}
@@ -446,4 +449,8 @@ void jgFun(void)
 {
 	printf("JGB");	
 
+}
+void jrPhas(void)
+{
+	printf("JR1");
 }
