@@ -16,7 +16,10 @@
 //place function prototypes here
 
 
+
 void function13AG(void);
+
+void rtFun(void);
 
 void JLeyva(void);
 
@@ -334,6 +337,7 @@ int main(int argc, char *argv[])
                         }
 			case 57:
                         {
+				rtFun();
                                 puts("room57");
                                 break;
                         }
@@ -448,6 +452,11 @@ void function13AG(void)
 	printf("AG\n");
 }
 
+void rtFun(void)
+{
+	printf("RT");
+}
+
 void JLeyva(void)
 {
 	printf("JL");
@@ -467,6 +476,7 @@ void printInitialsAjewett(void)
 {
 	printf("AJ\n");
 }
+
 void jgFun(void)
 {
 	printf("JGB");	
