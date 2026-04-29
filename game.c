@@ -1,5 +1,6 @@
 //Contributors
 //GP
+//LS
 //Ryan Rodriguez
 //
 
@@ -12,6 +13,10 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <unistd.h>
+
+
+//place function prototypes here
+void ls(void);
 
 void mnFun(void);
 
@@ -62,6 +67,7 @@ void printInitialsAjewett(void);
 
 
 void jgFun(void);
+
 
 void printInitialsSMarkos(void);
 
@@ -297,7 +303,8 @@ int main(int argc, char *argv[])
 				break;
 			}
 			case 40:
-			{
+			{      
+                                ls();
 				puts("room40");
 				break;
 			}
@@ -509,6 +516,11 @@ void mnFun(void)
 
 //place functions here
 
+void ls(void)
+{
+	printf("LS\n");
+       
+}
 void JMfun(void)
 {
 	printf("JM");
@@ -618,14 +630,14 @@ void jgFun(void)
 	printf("JGB");	
 
 }
-<<<<<<< main
+
 void printInitialsSMarkos(void) 
 {
 	printf("SM\n");
 }
-=======
 
 
 
 
->>>>>>> main
+
+
