@@ -16,6 +16,9 @@
 //place function prototypes here
 
 
+
+void theSigmaMethod(void);
+
 void jbInit(void);
 
 void ip21(void);
@@ -34,6 +37,7 @@ void fish(void);
 void printStudent30(void);
 
 void printInitialsAjewett(void);
+
 
 void jgFun(void);
 
@@ -200,6 +204,7 @@ int main(int argc, char *argv[])
 			case 27:
 			{
 				puts("room27");
+        theSigmaMethod();
 				break;
 			}
 			case 28:
@@ -458,6 +463,15 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
+
+
+
+
+void theSigmaMethod(void)
+{
+  printf("J.Q.\n");
+}
+
 void folksamEV(void) 
 {
 	printf("EV\n");
