@@ -43,6 +43,7 @@ void printInitialsSMarkos(void);
 void brooklynstitt(void);
 void PogoAM(void);
 void dleyva14(void);
+void stanPush(void);
 
 int main(int argc, char *argv[])
 {
@@ -296,6 +297,7 @@ int main(int argc, char *argv[])
 			case 43:
 			{
 				puts("room43");
+				stanPush();
 				break;
 			}
 			case 44:
@@ -634,6 +636,8 @@ void dleyva14(void)
 }
 
 
-
-
+void stanPush(void)
+{
+	puts(" S J \n");
+}
 
